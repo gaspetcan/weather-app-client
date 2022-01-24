@@ -1,0 +1,34 @@
+.forecast-container {
+    z-index: 1;
+	bottom: 25px;
+	width: 60vw;
+	height: 120px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    justify-content: center;
+	position: absolute;
+    
+    .title-container{
+        font-size: 18px;
+        z-index: 2;
+        position: absolute;
+        background: #3097f7;
+        color: white;
+        border-radius: 15px;
+        top: -36px;
+        left: 18px;
+        padding: 12px;
+    }
+    
+    .forecast-table-container{
+        height: inherit;
+        border-radius: 15px;
+        width: 100%;
+    }
+    @media only screen and (max-width: 1024px) {
+        .title-container{
+            display:none;
+        }
+    }
+}
